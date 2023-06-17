@@ -1,0 +1,75 @@
+.card {
+  width: 380px;
+  height: 460px;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    114.99deg,
+    #471ca9 -0.99%,
+    #5736a3 54.28%,
+    #4b2a99 78.99%
+  );
+}
+
+.top {
+  height: 214px;
+
+  background-image: url(../../assets/goit-logo.png),
+    url(../../assets/card-top-picture.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 20px top 20px, center;
+}
+
+.divider {
+  position: relative;
+
+  height: 8px;
+
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+}
+
+.userImageWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 80px;
+  height: 80px;
+
+  overflow: hidden;
+
+  border: 8px solid #ebd8ff;
+  border-radius: 50%;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+}
+
+.info {
+  text-align: center;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.tweets {
+  margin-top: 62px;
+
+  color: #ebd8ff;
+}
+
+.followers {
+  margin-top: 16px;
+
+  color: #ebd8ff;
+}
+
+.followBtn {
+  margin-top: 26px;
+}

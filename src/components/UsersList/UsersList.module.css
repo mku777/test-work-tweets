@@ -1,0 +1,13 @@
+.wrapper {
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.btn {
+  margin-top: 20px;
+}

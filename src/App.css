@@ -1,0 +1,130 @@
+/* Reset styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+img,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+article,
+footer,
+header,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style: none;
+}
+
+footer,
+header,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a,
+button {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  height: 100%;
+  background-image: url(../src/assets/photo.jpg);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+
+  text-align: center;
+}
+
+.about {
+  height: 100%;
+  padding: 300px 100px;
+}
+
+.about-title {
+  font-size: 32px;
+  color: white;
+}
+
+.about-btn {
+  margin-top: 30px;
+}
+
+.button {
+  min-width: 170px;
+  height: 45px;
+
+  padding: 14px 28px;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 600;
+  font-size: 18px;
+
+  text-transform: uppercase;
+
+  background-color: white;
+  border-radius: 15px;
+}
+
+.button.active,
+.button:hover {
+  background: lightblue;
+}
+
+
+
+.action-wrapper {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.load-more-btn {
+  margin-top: 50px;
+}
